@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Post from '../components/Post';
 import Footer from '../components/Footer';
 import {useState, useEffect} from 'react';
-import {getAllPostsFromServer} from '../../lib/utils';
+import {getAllPostsFromServer} from '../lib/utils';
 
 export default function Home() {
 	const [posts, setPosts] = useState([]);

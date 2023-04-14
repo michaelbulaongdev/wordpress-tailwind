@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from 'next/link';
 import {useState, useEffect} from 'react';
-import {getAuthor, getFeaturedImage} from '../../lib/utils';
+import {getAuthor, getFeaturedImage} from '../lib/utils';
 import parse from 'html-react-parser';
 
 export default function Post({post}) {

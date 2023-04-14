@@ -3,8 +3,8 @@ import axios from 'axios';
 import parse from 'html-react-parser';
 import Head from 'next/head';
 import Footer from '../../components/Footer';
-import {POSTS_API_URL} from '../../../lib/constants';
-import {getAuthor, getFeaturedImage} from '../../../lib/utils';
+import {POSTS_API_URL} from '../../lib/constants';
+import {getAuthor, getFeaturedImage} from '../../lib/utils';
 
 export default function Post({title, featuredImg, author, content, date}) {
 	return (
